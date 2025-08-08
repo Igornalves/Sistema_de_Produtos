@@ -13,6 +13,7 @@ import lombok.Data;
 @Entity
 @Data
 public class Fornecedores {
+    
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
