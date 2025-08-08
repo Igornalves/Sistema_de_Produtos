@@ -20,6 +20,7 @@ public class Fornecedores {
 
     private String nome;
     private String contato;
+    private String cnpj;
     private String email;
 
     @CreationTimestamp
