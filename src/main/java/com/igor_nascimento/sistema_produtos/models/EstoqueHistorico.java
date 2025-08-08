@@ -34,5 +34,5 @@ public class EstoqueHistorico {
 
     @ManyToOne
     @JoinColumn(name = "alterado_por")
-    private Usuarios alteradoPor;
+    private Usuarios usuarios;
 }

@@ -31,9 +31,9 @@ public class Usuarios {
     @UpdateTimestamp
     private LocalDateTime atualizado_em;
 
-    @OneToMany(mappedBy = "usuario")
+    @OneToMany(mappedBy = "usuarios")
     private List<EstoqueHistorico> historicoEstoque;
 
-    @OneToMany(mappedBy = "usuario")
+    @OneToMany(mappedBy = "usuarios")
     private List<Pedidos> pedidos;
 }

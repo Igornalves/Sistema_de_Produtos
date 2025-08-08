@@ -28,6 +28,6 @@ public class Pedidos {
     @ManyToOne
     private Usuarios usuarios;
 
-    @OneToMany(mappedBy = "pedido", cascade = CascadeType.ALL)
+    @OneToMany(mappedBy = "pedidos", cascade = CascadeType.ALL)
     private List<ItensPedido> itens; 
 }

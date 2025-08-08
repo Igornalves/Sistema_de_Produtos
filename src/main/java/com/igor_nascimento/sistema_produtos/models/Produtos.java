@@ -40,13 +40,13 @@ public class Produtos {
     @ManyToOne
     private Fornecedores fornecedores;
 
-    @OneToMany(mappedBy = "produto")
+    @OneToMany(mappedBy = "produtos")
     private List<ImagensProduto> imagens;
 
-    @OneToMany(mappedBy = "produto")
+    @OneToMany(mappedBy = "produtos")
     private List<EstoqueHistorico> historicoEstoque;
 
-    @OneToMany(mappedBy = "produto")
+    @OneToMany(mappedBy = "produtos")
     private List<ItensPedido> itensPedidos;
 
 }

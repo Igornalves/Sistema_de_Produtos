@@ -20,6 +20,6 @@ public class Categorias {
     private String nome;
     private String descricao;
 
-    @OneToMany(mappedBy = "categoria")
+    @OneToMany(mappedBy = "categorias")
     private List<Produtos> produtos;
 }
