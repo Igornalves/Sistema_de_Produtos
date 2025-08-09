@@ -9,5 +9,6 @@ import com.igor_nascimento.sistema_produtos.models.ImagensProduto;
 
 @Repository
 public interface ImagemProdutoRepository extends JpaRepository<ImagensProduto, Long> {
+    // Busca imagens por produto
     List<ImagensProduto> findByProdutos(Long produtos);
 }

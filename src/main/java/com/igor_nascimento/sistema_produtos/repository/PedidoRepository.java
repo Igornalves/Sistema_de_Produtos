@@ -9,5 +9,6 @@ import com.igor_nascimento.sistema_produtos.models.Pedidos;
 
 @Repository
 public interface PedidoRepository extends JpaRepository<Pedidos, Long> {
+    // Busca pedidos por usuário
     List<Pedidos> findByUsuarios(Long usuarios);
 }

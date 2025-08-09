@@ -10,19 +10,23 @@ import com.igor_nascimento.sistema_produtos.repository.FornecedorRepository;
 
 @Service
 public class FornecedorService {
-    
+
+    // Injeta o repositório de fornecedores para acesso ao banco de dados
     @Autowired
     private FornecedorRepository fornecedorRepository;
 
+    // Lista todos os fornecedores
     public List<Fornecedores> listar(){
         return fornecedorRepository.findAll();
     }
 
+    // Busca fornecedor por ID
     public Fornecedores buscarPorId(Long id){
         return fornecedorRepository.findById(id)
             .orElseThrow(() -> new RuntimeException("Fornecedor não encontrado"));
     }
 
+    // Atualiza dados do fornecedor
     public Fornecedores criarFornecedor(Long id, Fornecedores fornecedoresAtualizados){
         Fornecedores fornecedores = buscarPorId(id);
         fornecedores.setNome(fornecedoresAtualizados.getNome());
@@ -33,6 +37,7 @@ public class FornecedorService {
         return fornecedorRepository.save(fornecedores);
     }
 
+    // Remove um fornecedor
     public void deletar(Long id){
         fornecedorRepository.deleteById(id);
     }
