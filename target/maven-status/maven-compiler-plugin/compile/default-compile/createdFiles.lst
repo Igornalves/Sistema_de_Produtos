@@ -1,0 +1,11 @@
+com\igor_nascimento\sistema_produtos\SistemaProdutosApplication.class
+com\igor_nascimento\sistema_produtos\models\Usuarios.class
+com\igor_nascimento\sistema_produtos\config\SQLiteDialect.class
+com\igor_nascimento\sistema_produtos\models\Categorias.class
+com\igor_nascimento\sistema_produtos\models\Pedidos.class
+com\igor_nascimento\sistema_produtos\models\Produtos.class
+com\igor_nascimento\sistema_produtos\models\Fornecedores.class
+com\igor_nascimento\sistema_produtos\models\ItensPedido.class
+com\igor_nascimento\sistema_produtos\models\EstoqueHistorico.class
+com\igor_nascimento\sistema_produtos\models\ImagensProduto.class
+com\igor_nascimento\sistema_produtos\config\SQLiteDialect$1.class

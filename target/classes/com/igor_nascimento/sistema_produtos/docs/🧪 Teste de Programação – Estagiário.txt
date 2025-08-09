@@ -1,0 +1,32 @@
+🧪 Teste de Programação – Estagiário
+🎯 Objetivo
+Queremos avaliar sua capacidade de planejar, desenvolver e explicar um sistema simples com as operações básicas de um CRUD (Create, Read, Update, Delete), usando a linguagem e as ferramentas que você preferir.
+
+📝 O que você precisa fazer
+1° - Crie um sistema simples para gerenciar uma lista de tarefas, contatos ou produtos — você escolhe!
+Você pode usar qualquer linguagem de programação, framework ou banco de dados. Se quiser algo mais leve, pode usar um arquivo JSON ou SQLite, sem problemas.
+
+O sistema deve permitir:
+✅ Criar um novo registro
+🔍 Visualizar todos os registros e buscar por ID ou nome
+✏ Editar um registro existente
+🗑 Excluir um registro
+
+📦 O que você deve entregar
+O código-fonte completo, preferencialmente em um repositório como GitHub ou GitLab
+
+Um README.md explicando como rodar o projeto (quanto mais claro, melhor!)
+
+Comentários no código explicando o que cada parte faz
+
+Algum exemplo de dados para testar (pode ser um pequeno script ou arquivo de seed)
+
+🧐 Como vamos avaliar
+1° - Organização e qualidade do código
+2° - Clareza dos comentários e das instruções no README
+3° - Boas práticas (nomes de variáveis, separação de funções, tratamento de erros)
+4° - Facilidade para rodar o projeto (instruções simples, uso de scripts, Docker etc.)
+
+(Opcional, mas conta ponto!) Se quiser incluir testes automatizados, será um diferencial 😉
+
+entrega até a data do dia 11/08
