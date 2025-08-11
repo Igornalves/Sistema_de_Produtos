@@ -11,8 +11,8 @@ import com.igor_nascimento.sistema_produtos.models.EstoqueHistorico;
 public interface EstoqueHistoricoRepository extends JpaRepository<EstoqueHistorico,Long> {
 
     // Busca histórico de um produto
-    List<EstoqueHistorico> findByProdutos(Long produtos);
+    List<EstoqueHistorico> findByProdutos_Id(Long id);
 
     // Busca histórico de um usuário
-    List<EstoqueHistorico> findByUsuarios(Long usuarios);
+    List<EstoqueHistorico> findByUsuarios_Id(Long id);
 }

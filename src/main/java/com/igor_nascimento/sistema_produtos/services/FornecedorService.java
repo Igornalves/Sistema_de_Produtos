@@ -26,8 +26,13 @@ public class FornecedorService {
             .orElseThrow(() -> new RuntimeException("Fornecedor não encontrado"));
     }
 
+    // Cria um novo fornecedor
+    public Fornecedores criarFornecedor(Fornecedores fornecedor) {
+        return fornecedorRepository.save(fornecedor);
+    }
+
     // Atualiza dados do fornecedor
-    public Fornecedores criarFornecedor(Long id, Fornecedores fornecedoresAtualizados){
+    public Fornecedores atualizaFornecedor(Long id, Fornecedores fornecedoresAtualizados){
         Fornecedores fornecedores = buscarPorId(id);
         fornecedores.setNome(fornecedoresAtualizados.getNome());
         fornecedores.setContato(fornecedoresAtualizados.getContato());

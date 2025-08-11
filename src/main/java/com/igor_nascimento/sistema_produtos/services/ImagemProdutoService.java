@@ -23,7 +23,7 @@ public class ImagemProdutoService {
 
     // Lista imagens de um produto
     public List<ImagensProduto> listarPorProduto(Long produtos){
-        return imagemProdutoRepository.findByProdutos(produtos);
+        return imagemProdutoRepository.findByProdutos_Id(produtos);
     }
 
     // Adiciona imagem a um produto
