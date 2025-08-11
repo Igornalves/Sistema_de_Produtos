@@ -14,7 +14,7 @@ import lombok.Data;
 public class Categorias {
     
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private long id;
     
     private String nome;
